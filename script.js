@@ -19,3 +19,16 @@ function evenOrOdd() {
 		alert("That is not a number")
 	}
 }
+
+function numberPrompter() {
+	var num = prompt("Give me an even number between 3 and 11")
+	if (num%2 === 0 && num > 3 && num < 11) {
+		alert("Congratulations! Celebrate with this alert, chump!");
+	}
+	else if (num%2 === 1) {
+		alert("Try again, Einstein.");
+	}
+	else {
+		alert("That's not even a number!")
+	}
+}
