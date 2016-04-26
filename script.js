@@ -21,7 +21,7 @@ function evenOrOdd() {
 }
 
 function numberPrompter() {
-	var num = prompt("Give me an even number between 3 and 11")
+	var num = prompt("Give me an even number between 3 and 11");
 	if (num%2 === 0 && num > 3 && num < 11) {
 		alert("Congratulations! Celebrate with this alert, chump!");
 	}
@@ -31,4 +31,9 @@ function numberPrompter() {
 	else {
 		alert("That's not even a number!")
 	}
+}
+
+function wordReverser() {
+	var word = prompt("Give me a word or else!");
+	alert(word.split('').reverse().join(''));	
 }
